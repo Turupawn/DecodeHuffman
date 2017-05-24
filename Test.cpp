@@ -3,8 +3,8 @@
 
 void test()
 {
-    BinaryNode* n1 = new BinaryNode(NULL);
-    BinaryNode* n2 = new BinaryNode(NULL);
+    BinaryNode* n1 = new BinaryNode((char)NULL);
+    BinaryNode* n2 = new BinaryNode((char)NULL);
     BinaryNode* na = new BinaryNode('a');
     BinaryNode* nb = new BinaryNode('b');
     BinaryNode* nc = new BinaryNode('c');
@@ -14,11 +14,11 @@ void test()
     n2->left = nb;
     n2->right = nc;
 
-    BinaryNode* nx1 = new BinaryNode(NULL);
-    BinaryNode* nx2 = new BinaryNode(NULL);
-    BinaryNode* nx3 = new BinaryNode(NULL);
-    BinaryNode* nx4 = new BinaryNode(NULL);
-    BinaryNode* nx5 = new BinaryNode(NULL);
+    BinaryNode* nx1 = new BinaryNode((char)NULL);
+    BinaryNode* nx2 = new BinaryNode((char)NULL);
+    BinaryNode* nx3 = new BinaryNode((char)NULL);
+    BinaryNode* nx4 = new BinaryNode((char)NULL);
+    BinaryNode* nx5 = new BinaryNode((char)NULL);
     BinaryNode* nxm = new BinaryNode('m');
     BinaryNode* nxa = new BinaryNode('a');
     BinaryNode* nxr = new BinaryNode('r');
